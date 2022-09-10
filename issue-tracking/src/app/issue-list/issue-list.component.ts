@@ -10,7 +10,7 @@ import { Issue } from '../issue';
 export class IssueListComponent implements OnInit {
 
   issues: Issue[] = [];
-  showReportIssue: Boolean = false;
+  showReportIssueForm: Boolean = false;
 
   constructor(private issueService: IssuesService) { }
 
@@ -19,7 +19,7 @@ export class IssueListComponent implements OnInit {
   }
 
   public onCloseReport() {
-    this.showReportIssue = false;
+    this.showReportIssueForm = false;
     this.getIssues();
   }
 

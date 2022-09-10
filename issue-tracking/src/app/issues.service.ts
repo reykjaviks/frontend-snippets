@@ -6,6 +6,7 @@ import { issues } from '../assets/mock-issues';
   providedIn: 'root'
 })
 export class IssuesService {
+  
   private issues: Issue[] =  issues;
 
   constructor() { }
@@ -14,5 +15,10 @@ export class IssuesService {
     return this.issues.filter(issue =>
       !issue.completed // displays only issues that are not completed
     );
+  }
+
+  createIssue(issue: Issue) {
+    issue.issueNo = this.issues.length + 1;
+    this.issues.push(issue);
   }
 }

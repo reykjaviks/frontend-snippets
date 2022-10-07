@@ -1,13 +1,13 @@
-import './App.css';
+import Menu from './components/Menu'
+import data from './data/recipes.json'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>Recipes</h1>
       </header>
+      <Menu recipes={data} />
     </div>
   );
 }

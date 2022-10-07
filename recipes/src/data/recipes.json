@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Tofu Stir Fry",
+        "ingredients": [
+            { "name": "Firm Tofu", "amount": 1, "measurements": "block"},
+            { "name": "Soy Sauce", "amount": 1, "measurements": "tbsp"},
+            { "name": "Sesame Oil", "amount": 2, "measurements": "tbsp"}
+        ],
+        
+        "steps": [
+            "Simmer tofu for 2 minutes in a medium pot of salted boiling water",
+            "Cut tofu to pieces and toss together with soy souce and seame oil",
+            "Heat a large skillet, add tofu and let cook until golden"
+        ]
+    },
+    {
+        "name": "Baked Tofu",
+        "ingredients": [
+            { "name": "Firm Tofu", "amount": 1, "measurements": "block"},
+            { "name": "Ginger", "amount": 1, "measurements": "piece"},
+            { "name": "Sesame Oil", "amount": 2, "measurements": "tbsp"},
+            { "name": "Cornstarch", "amount": 2, "measurements": "tbsp"}
+        ],
+        
+        "steps": [
+            "Pat tofu dry and cut into 32 equal pieces",
+            "Make marinade by mixing ginger and sesame oil",
+            "Preheat oven to 400 degrees and carefully mix tofu with the marinade. Sprinkle with cornstarch",
+            "Spead tofu out onto a baking sheet and bake for 15 minutes"
+        ]
+    }
+]

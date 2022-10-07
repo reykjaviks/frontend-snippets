@@ -1,5 +1,5 @@
-import Menu from './components/Menu'
-import data from './data/recipes.json'
+import Menu from "./components/Menu"
+import data from "./data/recipes.json"
 
 function App() {
   return (
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

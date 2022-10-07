@@ -1,6 +1,6 @@
-import React from "react";
-import Ingredients from "./Ingredients";
-import Instructions from "./Instructions";
+import React from "react"
+import Ingredients from "./Ingredients"
+import Instructions from "./Instructions"
 
 export default function Recipe({ name, ingredients, steps }) {
     return (

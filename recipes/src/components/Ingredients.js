@@ -1,5 +1,5 @@
-import React from "react";
-import Ingredient from "./Ingredient";
+import React from "react"
+import Ingredient from "./Ingredient"
 
 export default function Ingredients({ ingredients }) {
     return (
@@ -11,6 +11,5 @@ export default function Ingredients({ ingredients }) {
                 ))}
             </ul>
         </div>
-
     )
 }

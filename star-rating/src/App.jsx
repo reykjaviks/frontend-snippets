@@ -1,8 +1,9 @@
 import React from "react";
+import StarRating from "./StarRating";
 
 export default () => (
   <>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
+    <h1>Star rating</h1>
+    <StarRating totalStars={7}/>
   </>
 );

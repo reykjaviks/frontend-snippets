@@ -1,8 +1,12 @@
 import React from "react"
 import Color from "./Color"
+import { useColors } from "./ColorProvider"
 
-export default function ColorList({ colors = [] }) {
+export default function ColorList() {
+    const { colors } = useColors()
+
     if(!colors.length) return <div>No Colors Listed.</div>
+    
     return (
         <div>
             {
@@ -11,3 +15,4 @@ export default function ColorList({ colors = [] }) {
         </div>
     )
 }
+

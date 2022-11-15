@@ -6,8 +6,6 @@ export default function GitHubUser({ login }: { login: string }) {
   const [data, setData] = useState()
   const apiBaseURL = "https://api.github.com/users"
 
-  console.log(apiBaseURL.concat("/").concat(login))
-
   useEffect(() => {
     if (!login) return
 
